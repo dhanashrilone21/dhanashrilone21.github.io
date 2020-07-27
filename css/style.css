@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header{
+  background-image: url(../new.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position:center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.4s ease;
+
+}
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+
+.logo img{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 250px;
+  height: 250px;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+color: #000000;
+font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.button a{
+  background-color: #fff;
+  color: #000;
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover{
+  background-color: #000000;
+  color: #fff;
+
+}
+.body2{
+  margin:0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(rgba(00,0,150,0.5),rgba(00,0,150,0.5)),url(pic1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.center td{
+  width: 400px;
+  padding: 25px;
+
+}
+
+.center{
+padding-top: 250px;
+padding-left: 400px;
+}
+.game h1{
+  padding-top: 250px;
+  text-align: center;
+  font-weight: bolder;
+}
+.explore h1{
+  padding-top: 250px;
+  text-align: center;
+  font-weight: bolder;
+}
